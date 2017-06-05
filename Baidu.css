@@ -1,0 +1,270 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+/*配合高度定位*/
+body{
+    height: 100%;
+    font:12px arial;
+}
+
+html{
+    height: 100%;
+}
+
+/*导航相关*/
+nav{
+    margin:19px 0 5px 0;
+    position:absolute;
+    right:10px;
+}
+
+nav .baidus{
+    font-size:13px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 20px;
+}
+
+nav a:hover{
+    color: #00c;
+}
+nav .users{
+    font-size: 13px;
+    color: #333;
+    margin-left: 15px;
+}
+
+nav .moreproduct{
+    font-size: 13px;
+    margin-left: 19px;
+    margin-right: 2px;
+    background: #38f;
+    border: 5px solid #38f;
+    color:#fff;
+    text-decoration: none;
+}
+
+nav .moreproduct:hover{
+    color: #ffffff;
+}
+
+/*底部相关*/
+.baiduqrcode1{
+    float: left;
+    width:60px;
+    height: 60px;
+    background:url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_62c636fe.png) 0 0 no-repeat;
+}
+
+.qrcodetext{
+    font:12px Arial;
+    color: #999;
+    line-height: 23px;
+    float: left;
+    margin: 8px 0 0 10px;
+}
+
+.qrcodetext p{
+    font-weight: bold;
+    color: #4c4c4c;
+}
+
+.baiduqrcode2{
+    float: left;
+    width:60px;
+    height: 60px;
+    background:url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/nuomi_510f7472.png) 0 0 no-repeat;
+
+}
+
+.qrcode2{
+    margin-left: 33px;
+    float: left;
+}
+
+.aboutbaidu{
+    font: 12px Arial;
+}
+
+.aboutbaidu a{
+    color: #272727;
+    margin-right: 20px;
+}
+
+.copyright{
+    font: 12px Arial;
+    margin-top: 8px;
+    color:#999;
+}
+
+.copyrights{
+    position: relative;
+    top:12px;
+    float: left;
+    margin-left: 33px;
+}
+
+.copyright a{
+    color:#999;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 44px;
+}
+
+.footer{
+    width:650px;
+    margin: 0 auto;
+}
+
+/*中间相关*/
+.logo{
+    width: 270px;
+    margin: 0 auto;
+}
+.searchinput{
+    width:539px;
+    height: 34px;
+    border: 1px solid #b6b6b6;
+    float: left;
+}
+
+.searchbutton{
+    width: 100px;
+    height: 36px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border: none;
+    outline: medium;
+    float: left;
+}
+
+.search{
+    width: 660px;
+    margin: 0 auto;
+}
+
+form{
+    margin:22px 0;
+}
+
+article{
+    min-height: 600px;
+    height: 100%;
+    position: relative;
+}
+
+.main{
+    position: relative;
+    top:38.2%;
+}
+
+.maininner{
+    position: relative;
+    top:-191px;
+}
+
+/*侧边栏*/
+.slide{
+    width:85px;
+    position: fixed;
+    border-left:1px solid #e7e7e7;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    right: 0;
+    top:0;
+    /*min-height: 627px;*/
+    text-align: center;
+    z-index: 2;
+    display: none;
+}
+.bdbriimgtitle{
+    color: #333;
+    text-align: center;
+    width:66px;
+    height: 43px;
+    line-height: 43px;
+    padding-top: 5px;
+    margin: 0 auto;
+    border-bottom: #f0f0f0 1px solid;
+    font-size:13px;
+    cursor: default;
+}
+.briscrollwrapperContainer{
+    position: relative;
+}
+
+.briscrollwrapper {
+    overflow: hidden;
+}
+
+.bdbri.bdbriimg span{
+    width:36px;
+    height: 36px;
+    display: block;
+    margin:10px auto 5px;
+    background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/logos/bdbri_icons_2e35e84b.png) no-repeat;
+    cursor: pointer;
+}
+
+.bdbri.bdbriimg span.bdbriimgitem_3{
+    width:40px;
+    background-position: -72px 0;
+}
+
+.bdbri.bdbriimg .bdmainlink a{
+    display:block;
+    text-align: center;
+    width: 66px;
+    height: 76px;
+    margin: 0 auto;
+    border-bottom: #f0f0f0 1px solid;
+    color: #666;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.bdbri.bdbriimg .bdmainlink a:hover{
+    color: #666;
+    text-decoration: underline;
+}
+
+.bdbri.bdbriimg span.bdbriimgitem_4{
+    background-position: -112px 0;
+}
+
+.bdbri.bdbriimg span.bdbriimgitem_2 {
+    background-position: -36px 0;
+}
+
+.bdbri.bdbriimg span.bdbriimgitem_5 {
+    background-position: -148px 0;
+}
+
+.bdbri.bdbriimg span.bdbriimgitem_6 {
+    background-position: -184px 0;
+}
+
+.bdbri.bdbriimg span.bdbriimgitem_7 {
+    background-position: -220px 0;
+}
+
+/*全部产品*/
+.bdbri.bdbriimg .bdbrievenmore{
+    margin-top: 15px;
+    height: 30px;
+    width: 85px;
+    overflow: hidden;
+}
+
+.bdbri.bdbriimg .bdbrievenmore a:link,.bdbri.bdbriimg .bdbrievenmore a:visited{
+    color: #666;
+    text-decoration: underline;
+}
+/*修改导航栏的样式*/
